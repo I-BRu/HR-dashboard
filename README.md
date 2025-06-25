@@ -2,13 +2,15 @@
 
 This is a Next.js-based HR Dashboard that shows employee details, performance, analytics, and bookmarking features.
 
+![Screenshot 2025-06-25 133127](https://github.com/user-attachments/assets/094c773c-5eec-40eb-83dc-f76666dc5a4c)
 
-## Getting Star
-![Screenshot 2025-06-25 133144](https://github.com/user-attachments/assets/4138d2e4-2d5a-4329-a2d0-ffd1b7017555)
-![Screenshot 2025-06-25 133208](https://github.com/user-attachments/assets/d180b934-0523-4ba3-8e98-89696d15eaf2)
-![Screenshot 2025-06-25 133233](https://github.com/user-attachments/assets/e9763160-96cb-489a-a5e9-ee0693d92919)
-![Screenshot 2025-06-25 133127](https://github.com/user-attachments/assets/38418bc4-612c-4499-8833-532c51da70a5)
-ted
+![Screenshot 2025-06-25 133144](https://github.com/user-attachments/assets/90345ac3-dca0-4a3d-bc9f-5eca17e6a424)
+
+![Screenshot 2025-06-25 133208](https://github.com/user-attachments/assets/fa0dfd0f-b5bf-4eae-8661-064fa5a17c4b)
+
+![Screenshot 2025-06-25 133233](https://github.com/user-attachments/assets/5a382cc9-bf83-41b4-9027-00d978ee0215)
+
+## Getting Started
 
 Run:
 ```bash
