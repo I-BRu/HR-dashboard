@@ -1,0 +1,30 @@
+name: OpenAI PR Reviewer
+
+on:
+  pull_request:
+    types: [opened, edited, reopened]
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: Checkout the PR code
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Step 2: Set up Node.js (if your review script uses Node)
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      # Step 3: Install dependencies (your review script)
+      - name: Install dependencies
+        run: npm install
+
+      # Step 4: Run the PR review script safely using the secret
+      - name: Run OpenAI PR Reviewer
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          node ./scripts/run-pr-review.js
